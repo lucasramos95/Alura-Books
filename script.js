@@ -9,6 +9,8 @@ async function buscaEndereco(cep) {
         return consultaCEPConvertida;
     } catch (erro) {
         console.log(erro)
+    }
 }
 
-}
+var cep = document.getElementById('cep');
+cep.addEventListener("focusout")
